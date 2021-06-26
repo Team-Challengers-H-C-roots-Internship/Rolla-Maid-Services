@@ -1,6 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top shift">
 
     <?php
+        require ("assets/nav_footer_cdns.php");
+    ?>
+
+    <?php
         if ($_SESSION){
     ?>
 
