@@ -40,7 +40,7 @@
             ?>
 
             <li class="nav-item active">
-                <a class="nav-link " href="#"><i class="fas fa-address-card"></i> About</a>
+                <a class="nav-link " href="About.php"><i class="fas fa-address-card"></i> About</a>
             </li>
             <li class="nav-item active dropdown">
                 <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,7 +54,10 @@
                 </div>
             </li>
             <li class="nav-item active">
-                <a class="nav-link =" href="contactUs.php"><i class="fas fa-id-badge"></i> Contact Us</a>
+                <a class="nav-link" href="contactUs.php"><i class="fas fa-id-badge"></i> Contact Us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="faq.php"><i class="fa fa-question"></i>Faq</a>
             </li>
 
             <?php

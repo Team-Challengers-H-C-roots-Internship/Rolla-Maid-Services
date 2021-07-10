@@ -15,17 +15,31 @@
 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="nav_footer_styles.css" type="text/css">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src="https://kit.fontawesome.com/debf789820.js" ></script>
+
+        <!---stylesheet link-->
+        <link rel="stylesheet" href="/home.css">
+        <link rel="stylesheet" href="/chat.css">
     </head>
     <body>
     <?php
         require ("header.php");
     ?>
-    <div class="jumbotron pt-6 mb-5">
-    </div>
 
-    <section id="blankSection" >
-        <h1 class="text-center">Replace with content of home page</h1>
-    </section>
+    <div class="container">
+        <div class="loader_bg">
+            <div class="loader_img">
+                <img src="./images/rozowa_laseczka_v2.gif" alt="image">
+            </div>
+            <div class="head">
+                <h1 data-text="We Will Provide You The Best Maid..... " class="h1">We Will Provide You The Best Maid.....</h1>
+            </div>
+        </div>
+    </div>
 
     <?php
         require ("footer.php");
