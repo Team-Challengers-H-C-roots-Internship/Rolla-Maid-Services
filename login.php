@@ -79,6 +79,9 @@ require("header.php");
                                                                                       href="signup.php">Create
                                     one</a></small>
                         </div>
+                        <div class="row mb-4 px-3">
+                           <p>Admin ? <a href="./admin/login.html">Click </a>Here to Login</p>
+                        </div>
                     </form>
                 </div>
             </div>

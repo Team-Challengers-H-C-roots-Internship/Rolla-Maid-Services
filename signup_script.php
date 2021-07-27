@@ -59,7 +59,6 @@
         $query = "Insert into `users`(`id`,`name`,`email`,`password`,`mobile_no`,`address`,`area`,`landmark`,`city`) values (NULL ,'$name','$email','$password','$mobile','$address','$area','$landmark','$city')";
         $result = mysqli_query($con,$query) or die(mysqli_error($con));
         echo "<script>alert('User Successfully Created with `$name` and `$email`.Enjoy the service')</script>";
-
         $_SESSION["id"] = mysqli_insert_id($con);
         $_SESSION["name"] = $name;
 
